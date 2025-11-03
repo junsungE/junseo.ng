@@ -1,3 +1,6 @@
+# junseo.ng
+
+
 # WT.mc_id Link Generator
 
 Simple static web app to append a WT.mc_id contributor ID to a given URL. It removes lang-locale path segments (like `/en-us/`) before adding the ID, and it remembers the ID in localStorage.
