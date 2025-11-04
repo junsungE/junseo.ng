@@ -3,7 +3,7 @@
 
 # WT.mc_id Link Generator
 
-Simple static web app to append a WT.mc_id contributor ID to a given URL. It removes lang-locale path segments (like `/en-us/`) before adding the ID, and it remembers the ID in localStorage.
+Simple static web app to append a WT.mc_id Contributor ID to a given URL. It removes lang-locale path segments (like `/en-us/`) before adding the ID, and it remembers the ID in localStorage.
 
 Files
 - `index.html` — main page
@@ -18,6 +18,7 @@ How to use
 4. Click Generate. Copy the generated URL.
 
 Notes
+- Please check the eligible Microsoft URLs. Since the eligible URLs can be updated at any time, to allow flexibility, it doesn't verify them.
 - If the URL already contains a query string, the ID will be appended with `&`.
 - Your ID is stored in the browser's localStorage until you clear it.
 
